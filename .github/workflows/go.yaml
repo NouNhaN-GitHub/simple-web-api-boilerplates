@@ -32,5 +32,5 @@ jobs:
         run: go test
       - name: Executable file output to
         run: go build ./main.go
-      - name: how to run
-        run: ./main
+#      - name: how to run
+#        run: ./main
