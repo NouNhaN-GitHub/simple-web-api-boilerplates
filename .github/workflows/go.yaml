@@ -31,6 +31,6 @@ jobs:
       - name: Test with the Go CLI
         run: go test
       - name: Executable file output to
-        run: <current-directory>/<name>
+        run: go build ./main.go
       - name: how to run
-        run: ./<name>
+        run: ./main
